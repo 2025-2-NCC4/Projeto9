@@ -1,0 +1,37 @@
+@import "../../styles/variables.scss";
+
+.card-container{
+    background-color: $primary-gray;
+
+    padding: .6rem;
+    padding-left: 1.2rem;
+
+    border-radius: .62rem;
+    min-width: 0;
+
+    .card-header{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+        .card-title{
+            font-size: 1.43rem;
+            font-weight: 600;
+            
+        }
+    }
+    .card-info{
+        font-size: clamp(1.25rem, 4.8vw, 2.5rem);
+        font-weight: 700;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .card-trend-wrap{
+        display: flex;
+        align-items: center;
+        .card-trend{
+            font-size: 1.18rem;
+            font-weight: 400;
+        }
+    }
+}

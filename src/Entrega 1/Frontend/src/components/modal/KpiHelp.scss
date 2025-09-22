@@ -1,0 +1,94 @@
+@import "../../styles/variables.scss";
+
+.kpi-help {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.kpi-help__preview {
+  background: #305232;
+  color: $primary-gray; 
+  border: none;
+  border-radius: 10px;
+  padding: 6px 10px;
+  cursor: pointer;
+  max-width: 100%;
+  text-align: left;
+  font-size: clamp(.85rem, 1.7vw, 1rem);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.kpi-help__calc-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: inherit;
+  padding: 2px;
+}
+
+
+.kpi-help__modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.45);
+  display: grid;
+  place-items: center;
+  z-index: 50;
+}
+
+.kpi-help__modal-card {
+  position: relative;
+  background: #ffffff;
+  color: #0f172a;
+  width: min(560px, 92vw);
+  border-radius: 14px;
+  padding: 18px 20px;
+  box-shadow: 0 18px 48px rgba(0,0,0,.28);
+}
+
+.kpi-help__close {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.kpi-help__titulo {
+  margin: 0 0 8px 0;
+  font-size: clamp(1.1rem, 2.4vw, 1.4rem);
+}
+
+.kpi-help__body {
+  margin: 0 0 12px 0;
+  font-size: clamp(.95rem, 2vw, 1rem);
+  line-height: 1.5;
+}
+
+.kpi-help__formula {
+  font-size: .95rem;
+  span { opacity: .8; margin-right: 6px; }
+  code {
+    background: #f1f5f9;
+    padding: 2px 6px;
+    border-radius: 6px;
+  }
+}
+
+.kpi-help--painel{
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    color:#0f172a;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px; 
+    padding: 12px; 
+    
+    max-width: 400px;
+}

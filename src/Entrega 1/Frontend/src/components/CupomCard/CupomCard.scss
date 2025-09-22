@@ -1,0 +1,65 @@
+@import "../../styles/variables.scss";
+
+.cupom-card{
+    background: $primary-gray;
+    border-radius: .62rem;
+    padding: 12px 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 0;
+}
+
+.cupom-titulo{
+    font-size: clamp(1rem, 2vw, 1.2rem);
+    font-weight: 700;
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.cupom-metrica{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0,1fr));
+    gap: 10px;
+}
+
+.metrica{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    min-width: 0;
+
+    .label{
+        font-size: .85rem;
+        opacity: .8;
+    }
+    .value{
+        font-size: clamp(1rem, 2.2vw, 1.15rem);
+        font-weight: 600;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+.cupom-progresso{
+    height: 8px;
+    background: rgba(255,255,255,.12);
+    border-radius: 999px;
+    overflow: hidden;
+
+    .bar{
+        height: 100%;
+        background: #3b82f6; 
+        width: 0%;
+        transition: width .25s ease;
+    }
+}
+
+@media(max-width: 1368px){
+    .cupom-metrica{
+        display: flex;
+        flex-direction: column;
+    }
+}
