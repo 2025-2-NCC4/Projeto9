@@ -1,6 +1,6 @@
 # Entregas do PI
 
-## Entrega 1 - Responsáveis
+## Entrega 1
 
 ### Análise Inferencial de Dados
 
