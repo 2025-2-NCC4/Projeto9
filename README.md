@@ -30,7 +30,7 @@
 
 PicBoard é um projeto acadêmico realizado pelos alunos de Ciência da Computação na FECAP em parceria com a empresa PicMoney. 
 <br><br>
-A proposta do projeto visa auxiliar a empresa em suas análises financeiras e o planejamento estratégico por meio de um dashboard interativo que centraliza as informações e oferece duas visões executivas - **CEO** e **CFO**, para decisoes mais rápidas e acertivas
+A proposta do projeto visa auxiliar a empresa em suas análises financeiras e o planejamento estratégico por meio de um dashboard interativo que centraliza as informações e oferece duas visões executivas - **CEO** e **CFO**, para decisões mais rápidas e acertivas
 <br><br>
 Com esse dashboard, os gestores poderão:
 
@@ -43,29 +43,29 @@ Com esse dashboard, os gestores poderão:
 
 ## 🛠 Estrutura de pastas
 
--Raiz<br>
-|<br>
-|-->documentos<br>
-  &emsp;|-->Entrega 1<br>
-  &emsp;&emsp;|-->Análise Inferencial de Dados<br>
-  &emsp;&emsp;|-->Contabilidade e Finanças<br>
-  &emsp;&emsp;|-->Engenharia de Software e Arquitetura de Sistemas<br>
-  &emsp;&emsp;|-->Projeto Interdisciplinar - Ciência de Dados<br>
-  &emsp;|-->Entrega 2<br>
-  &emsp;&emsp;|-->Análise Inferencial de Dados<br>
-  &emsp;&emsp;|-->Contabilidade e Finanças<br>
-  &emsp;&emsp;|-->Engenharia de Software e Arquitetura de Sistemas<br>
-  &emsp;&emsp;|-->Projeto Interdisciplinar - Ciência de Dados<br>
-|-->imagens<br>
-|-->src<br>
-  &emsp;|-->Entrega 1<br>
-  &emsp;&emsp;|-->Backend<br>
-  &emsp;&emsp;|-->Frontend<br>
-  &emsp;|-->Entrega 2<br>
-  &emsp;&emsp;|-->Backend<br>
-  &emsp;&emsp;|-->Frontend<br>
-|readme.md<br>
-
+```
+├── documentos
+│   ├── Entrega 1
+│   │   ├── Análise Inferencial de Dados
+│   │   ├── Contabilidade e Finanças
+│   │   ├── Engenharia de Software e Arquitetura de Sistemas
+│   │   └── Projeto Interdisciplinar - Ciência de Dados
+│   ├── Entrega 2
+│   │   ├── Análise Inferencial de Dados
+│   │   ├── Contabilidade e Finanças
+│   │   ├── Engenharia de Software e Arquitetura de Sistemas
+│   │   └── Projeto Interdisciplinar - Ciência de Dados
+│   ├── Documentação.docx
+├── imagens
+├── src
+│   ├── Entrega 1
+│   │   ├── Backend
+│   │   └── Frontend
+│   ├── Entrega 2
+│   │   ├── Backend
+│   │   └── Frontend
+└── readme.md<br>
+```
 
 Há também 4 pastas que seguem da seguinte forma:
 
@@ -85,9 +85,9 @@ Há também 4 pastas que seguem da seguinte forma:
 
 ## 📋 Pré-requisitos
 
-Antes de iniciar é necessário garantir que o ambiente de desenvolvimento possua as dependencias necessárias para executar o proejto.
+Antes de iniciar é necessário garantir que o ambiente de desenvolvimento possua as dependências necessárias para executar o proejto.
 
-- [Node.js](https://nodejs.org/pt), ferramenta para executar o frontend, backend e instalar as dependencias.
+- [Node.js](https://nodejs.org/pt), ferramenta para executar o frontend, backend e instalar as dependências.
 - [Python 3.10+](https://www.python.org/downloads/), linguagem usada para análise, tratamento de dados.
 - Um banco de dados PostgreSQL:
   - Caso utilize localmente, baixe e instale o [PostgreSQL](https://www.postgresql.org/download/).
@@ -103,9 +103,9 @@ Clone o repositório em sua máquina:
 git clone https://github.com/2025-2-NCC4/Projeto9
 ```
 
-### 1. Instalando dependencias
+### 1. Instalando dependências
 
-Acesse a pasta raiz, tanto do frontend quanto do backend e execute o comando abaixo em cada uma para instalar as dependencias
+Acesse a pasta raiz, tanto do frontend quanto do backend e execute o comando abaixo em cada uma para instalar as dependências
 
 ```bash
 npm install
