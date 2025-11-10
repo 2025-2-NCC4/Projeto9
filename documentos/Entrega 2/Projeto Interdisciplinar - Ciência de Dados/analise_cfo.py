@@ -54,7 +54,7 @@ st.markdown("""
 
 @st.cache_data
 def carregar_dados():
-    df = pd.read_excel("PicMoneyDados.xlsx", sheet_name="PicMoney-Unificada")
+    df = pd.read_excel("PicMoneyDados 2.xlsx", sheet_name="PicMoney-Unificada")
     return df
 
 df = carregar_dados()
