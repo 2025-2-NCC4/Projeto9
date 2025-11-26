@@ -41,7 +41,6 @@ Com esse dashboard, os gestores poderão:
 - Exportar relatórios mensais em Excel.
 <br><br>
 
-## Acesse a plataforma: [PicBoard](https://pic-board.vercel.app)
 
 ## 🛠 Estrutura de pastas
 
